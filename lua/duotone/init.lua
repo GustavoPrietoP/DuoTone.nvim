@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('monekai.theme')
+local theme = require('duotone.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
@@ -10,7 +10,7 @@ M.setup = function()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = 'monekai'
+  vim.g.colors_name = 'duotone'
 
   theme.set_highlights()
 end
