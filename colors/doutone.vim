@@ -1,4 +1,4 @@
 lua << EOF
-local monekai = require("duotone")
-monekai.setup({})
+local doutone = require("duotone")
+doutone.setup({})
 EOF
