@@ -1,5 +1,5 @@
 
-local c = require('doutone.palette')
+local c = require('duotone.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
